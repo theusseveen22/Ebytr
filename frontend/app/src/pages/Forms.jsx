@@ -1,11 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import FormsFields from '../components/forms';
 
 function Forms() {
   return (
     <div className="App">
-        <h1>Ebytr - Bem vindo!</h1>
-        <Link to="/tasks">Minhas Tasks</Link>
+        <h1>Adicionar nova tarefa</h1>
+        <FormsFields />
     </div>
   );
 }

@@ -1,17 +1,10 @@
-import React, { useState, useEffect } from 'react';
-import getAllTasks from '../services/getAllTasks';
+import React, { useContext } from 'react';
+import Context from '../context/Context'
+import './style.css'
 
 function GetTasksAll() {
-  const [dataTasks, setDataTasks] = useState([]);
 
-  useEffect(() => {
-    const getSale = async () => {
-      const data = await getAllTasks();
-      setDataTasks(data);
-    }
-  getSale();
-  }, []);
-
+  const { dataTasks } = useContext(Context);
   const loading = 'Parabéns, você não tem nenhuma tarefa! =)'
 
   return (
@@ -20,19 +13,11 @@ function GetTasksAll() {
       : dataTasks.map((element, index) => (
         <div
           key={ index }
+          className="tasksList"
         >   
-            <table>
-                <tr>
-                  <th>Tarefa</th>
-                  <th>Descrição</th>
-                  <th>Status</th>
-                </tr>
-                <tr>
-                  <td>{ element.title }</td>
-                  <td>{ element.description }</td>
-                  <td>{ element.status }</td>
-                </tr>
-            </table>
+            <h3>Tarefa { element.title }</h3>
+            <h3>Descrição { element.description }</h3>
+            <h3>Status { element.status }</h3>
         </div>))
   );
 }

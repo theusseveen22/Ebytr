@@ -1,0 +1,35 @@
+.tasksList {
+    display: flex;
+    color: rgb(202, 159, 17);
+    padding: 10px;
+    flex-direction: row;
+    border: 1px solid;
+    width: 300px;
+    height: 100px;
+    flex-flow: row wrap;
+    background-color: rgb(92, 42, 42);
+}
+
+.formsFilds {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    font-size: medium;
+    background-color: rgb(92, 42, 42);
+    color: rgb(202, 159, 17);
+}
+
+.formsFilds input {
+    padding: 5px;
+    align-items:flex-end;
+}
+
+.formsFilds button {
+    width: 100px;
+    margin: 5px;
+    background-color: rgb(151, 7, 7);
+    color: aliceblue;
+}
