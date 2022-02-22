@@ -1,11 +1,10 @@
 const connection = require('./connection');
+const { ObjectId } = require('mongodb');
 
-const createTasks = async (title, description) => {
+const createTasks = async (title) => {
     const db = await connection()
     const insertTasks = await db.collection('tasks').insertOne({
-        title,
-        description,
-        status: 'open'
+        title
     })
     return insertTasks;
 }
@@ -13,11 +12,18 @@ const createTasks = async (title, description) => {
 const getAllTasks = async () => {
     const db = await connection();
     const allTasks = await db.collection('tasks').find().toArray();
-    console.log(allTasks);
     return allTasks;
+}
+
+const removeTask = async (id) => {
+    const db = await connection();
+    const remove = await db.collection('tasks')
+    .remove({"_id": ObjectId(id)});
+    return remove;
 }
 
 module.exports = {
     createTasks,
-    getAllTasks
+    getAllTasks,
+    removeTask
 }

@@ -1,11 +1,13 @@
 import React from 'react';
-import GetTasks from '../components/GetTasks'
+import TasksCard from './TasksCards';
+import Forms from './Forms';
+import './style.css'
 
 function Tasks() {
-    console.log("Aqui também.....")
   return (
-    <div className="App">
-        <GetTasks />
+    <div className="tasks">
+        <Forms />
+        <TasksCard />
     </div>
   );
 }

@@ -1,38 +1,25 @@
-import React, { useState, useEffect } from 'react';
-import getAllTasks from '../services/getAllTasks';
+import React from 'react';
+import './style.css';
 
-function GetTasksAll() {
-  const [dataTasks, setDataTasks] = useState([]);
-
-  useEffect(() => {
-    const getSale = async () => {
-      const data = await getAllTasks();
-      setDataTasks(data);
-    }
-  getSale();
-  }, []);
-
+function GetTasksAll(props) {
+  
   const loading = 'Parabéns, você não tem nenhuma tarefa! =)'
-
+  const dataTasks = props.data;
+  console.log('ComponentTasks', dataTasks)
+  
   return (
     !dataTasks || dataTasks.length === 0
       ? <h1>{loading}</h1>
       : dataTasks.map((element, index) => (
         <div
           key={ index }
+          className="tasksList"
         >   
-            <table>
-                <tr>
-                  <th>Tarefa</th>
-                  <th>Descrição</th>
-                  <th>Status</th>
-                </tr>
-                <tr>
-                  <td>{ element.title }</td>
-                  <td>{ element.description }</td>
-                  <td>{ element.status }</td>
-                </tr>
-            </table>
+            <h4>Tarefa { element.title }
+            {/* <button 
+        type="button" onClick={ handleClick(element.id) }
+        >Concluir</button> */}
+            </h4>
         </div>))
   );
 }

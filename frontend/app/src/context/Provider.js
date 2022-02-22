@@ -1,13 +1,22 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import Context from './Context';
+import getAllTasks from '../services/getAllTasks';
 
 function Provider({ children }) {
-  const [total, setTotal] = useState(0);
+  const [dataTasks, setDataTasks] = useState([]);
+
+
+useEffect(() => {
+  const getAllData = async () => {
+    const data = await getAllTasks();
+    setDataTasks(data);
+  }
+getAllData();
+}, []);
 
   const states = {
-    total,
-    setTotal,
+    dataTasks
   };
 
   return (

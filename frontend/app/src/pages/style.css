@@ -1,0 +1,42 @@
+.tasks {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: antiquewhite;
+    background-image: url("../images/thumb-1920-1025036.jpg");
+    height: 800px;
+}
+
+.tasksCard {
+    display: flex;
+    flex-direction: column;
+    overflow-x: scroll;
+    flex-wrap: wrap;
+    height: 700px;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    background-color:rgb(63, 95, 62);
+    color: aliceblue;
+    background-image: url("../images/frontdoom.jpg");
+    background-size: cover;
+    height: 800px;
+}
+
+.home a {
+    color: rgb(5, 5, 5);
+    background-color: rgb(255, 254, 254);
+    font-size: large;
+}
+
+.home h1 {
+    color: rgb(19, 20, 20);
+    background-color: rgb(255, 255, 255);
+}
+
+
+
