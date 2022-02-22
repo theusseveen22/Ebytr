@@ -1,12 +1,12 @@
-import React, { useContext } from 'react';
-import Context from '../context/Context'
-import './style.css'
+import React from 'react';
+import './style.css';
 
-function GetTasksAll() {
-
-  const { dataTasks } = useContext(Context);
+function GetTasksAll(props) {
+  
   const loading = 'Parabéns, você não tem nenhuma tarefa! =)'
-
+  const dataTasks = props.data;
+  console.log('ComponentTasks', dataTasks)
+  
   return (
     !dataTasks || dataTasks.length === 0
       ? <h1>{loading}</h1>
@@ -15,9 +15,11 @@ function GetTasksAll() {
           key={ index }
           className="tasksList"
         >   
-            <h3>Tarefa { element.title }</h3>
-            <h3>Descrição { element.description }</h3>
-            <h3>Status { element.status }</h3>
+            <h4>Tarefa { element.title }
+            {/* <button 
+        type="button" onClick={ handleClick(element.id) }
+        >Concluir</button> */}
+            </h4>
         </div>))
   );
 }

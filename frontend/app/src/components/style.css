@@ -15,7 +15,7 @@
     flex-direction: column;
     padding: 5px;
     width: 300px;
-    height: 300px;
+    height: 200px;
     align-items: center;
     font-size: medium;
     background-color: rgb(92, 42, 42);
@@ -23,13 +23,15 @@
 }
 
 .formsFilds input {
-    padding: 5px;
+    padding: 15px;
     align-items:flex-end;
+    font-size: medium;
 }
 
 .formsFilds button {
     width: 100px;
-    margin: 5px;
+    margin: 15px;
     background-color: rgb(151, 7, 7);
     color: aliceblue;
+    font-size: larger;
 }

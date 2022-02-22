@@ -4,24 +4,18 @@ import Context from './Context';
 import getAllTasks from '../services/getAllTasks';
 
 function Provider({ children }) {
-  const [formData, setForm] = useState({
-    title: "",
-    description: ""
-})
+  const [dataTasks, setDataTasks] = useState([]);
 
-const [dataTasks, setDataTasks] = useState([]);
 
 useEffect(() => {
-  const getSale = async () => {
+  const getAllData = async () => {
     const data = await getAllTasks();
     setDataTasks(data);
   }
-getSale();
-}, [dataTasks, formData]);
+getAllData();
+}, []);
 
   const states = {
-    formData,
-    setForm,
     dataTasks
   };
 

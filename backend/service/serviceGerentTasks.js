@@ -1,4 +1,7 @@
-const { createTasks, getAllTasks } = require('../model/gerenteTaks')
+const { 
+createTasks, 
+getAllTasks,
+removeTask } = require('../model/gerenteTaks')
 
 const serviceCreateTasks = async (title, description) => {
     const insetTasks = await createTasks(title, description)
@@ -10,7 +13,13 @@ const serviceAllTasks = async () => {
     return allTasks;
 }
 
+const serviceRemoveTask = async (id) => {
+    const remove = await removeTask(id)
+    return remove;
+}
+
 module.exports = {
     serviceCreateTasks,
-    serviceAllTasks
+    serviceAllTasks,
+    serviceRemoveTask,
 }

@@ -1,6 +1,6 @@
 .tasks {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding: 10px;
     background-color: antiquewhite;
     background-image: url("../images/thumb-1920-1025036.jpg");
@@ -11,6 +11,8 @@
     display: flex;
     flex-direction: column;
     overflow-x: scroll;
+    flex-wrap: wrap;
+    height: 700px;
 }
 
 .home {
