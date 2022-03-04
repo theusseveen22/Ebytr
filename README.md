@@ -7,13 +7,26 @@
 
 <p align="center">
  <a href="#tecnologias">Tecnologias</a> • 
- <a href="#contribuicao">Contribuição</a> • 
+ <a href="#Status">Status</a> • 
+ <a href="#autor">Autor</a> •
  <a href="#licenca">Licença</a> • 
- <a href="#autor">Autor</a>
 </p>
 
+### 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [Node.js](https://nodejs.org/en/)
+- [React](https://pt-br.reactjs.org/)
+- [Express](https://expressjs.com/pt-br/)
+- [Cors](https://www.npmjs.com/package/cors)
+- [Css](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+
+
+### Status
+
 <h4 align="center"> 
-        To DOOM List 🚀 Aguardando contribuição... 
+        To DOOM List 🚀 Aberto para melhorias
 </h4>
 
 ### Pré-requisitos
@@ -46,6 +59,7 @@ $ npm run debug ou npm start
 ### 🎲 Rodando o Front
 
 
+```bash
 # Acesse a pasta do projeto no terminal/cmd
 $ cd frontend
 
@@ -59,6 +73,7 @@ $ npm install
 $ npm start
 
 # O servidor inciará na porta:3000 - acesse <http://localhost:3000> 
+```
 
 ### Autor
 ---
@@ -71,10 +86,11 @@ $ npm start
 
 Feito com ❤️ por Matheus lima 👋🏽 Entre em contato!
 
-[![Linkedin Badge](https://img.shields.io/badge/-MatheusLima-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/matheus-lima-dev/)](https://www.linkedin.com/in/matheus-lima-dev/) 
+
+[![Linkedin Badge](https://img.shields.io/badge/-Thiago-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tgmarinho/)](https://www.linkedin.com/in/matheus-lima-dev/) 
 [![Gmail Badge](https://img.shields.io/badge/-mateus.krauss@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:mateus.krauss@gmail.com)](mailto:mateus.krauss@gmail.com)
-                                   
-                                                                                              
-### Licença
----
-                                                                                              <a href="https://github.com/theusseveen22/Ebytr/blob/main/LICENSE" />Licença</a>                                                                                    
+
+### Licença 
+
+<a href="https://github.com/theusseveen22/Ebytr/blob/main/LICENSE">Licença</a>
+                                                                                  
