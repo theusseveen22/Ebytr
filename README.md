@@ -71,5 +71,10 @@ $ npm start
 
 Feito com ❤️ por Matheus lima 👋🏽 Entre em contato!
 
-[![Linkedin Badge](https://img.shields.io/badge/-Thiago-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tgmarinho/)](https://www.linkedin.com/in/matheus-lima-dev/) 
-[![Gmail Badge](https://img.shields.io/badge/-tgmarinho@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tgmarinho@gmail.com)](mailto:mateus.krauss@gmail.com)
+[![Linkedin Badge](https://img.shields.io/badge/-MatheusLima-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/matheus-lima-dev/)](https://www.linkedin.com/in/matheus-lima-dev/) 
+[![Gmail Badge](https://img.shields.io/badge/-mateus.krauss@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:mateus.krauss@gmail.com)](mailto:mateus.krauss@gmail.com)
+                                   
+                                                                                              
+### Licença
+---
+                                                                                              <a href="https://github.com/theusseveen22/Ebytr/blob/main/LICENSE" />Licença</a>                                                                                    
