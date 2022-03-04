@@ -6,11 +6,9 @@
 ## Tabela de conteúdos
 
 <p align="center">
- <a href="#objetivo">Objetivo</a> •
- <a href="#roadmap">Roadmap</a> • 
  <a href="#tecnologias">Tecnologias</a> • 
  <a href="#contribuicao">Contribuição</a> • 
- <a href="#licenc-a">Licença</a> • 
+ <a href="#licenca">Licença</a> • 
  <a href="#autor">Autor</a>
 </p>
 
@@ -43,13 +41,13 @@ $ npm install
 $ npm run debug ou npm start
 
 # O servidor inciará na porta:3001 - acesse <http://localhost:3001>
+```
 
-'''
-#### 🎲 Rodando o Front (servidor)
-'''
+### 🎲 Rodando o Front
+
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd Frontend
+$ cd frontend
 
 # Vá para a pasta server
 $ cd app
@@ -60,13 +58,18 @@ $ npm install
 # Execute a aplicação em modo de desenvolvimento
 $ npm start
 
-# O servidor inciará na porta:3000 - acesse <http://localhost:3000>
+# O servidor inciará na porta:3000 - acesse <http://localhost:3000> 
 
-### 🛠 Tecnologias
+### Autor
+---
 
-As seguintes ferramentas foram usadas na construção do projeto:
+<a href="https://matheusdev.website/">
+ <img style="border-radius: 50%;" src=" <img style="border-radius: 50%;" src="https://matheusdev.website/wp-content/uploads/2022/01/TMDDFEPFU-U01KGHC72G7-163971f83d6f-512.png" width="100px;" alt=""/>
+ <br />
+ <sub><b>Matheus Lima</b></sub></a> <a href="https://matheusdev.website/" title="matheus lima">🚀</a>
 
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [Express](https://expressjs.com/pt-br/)
-- [mongodb](https://www.mongodb.com/)
+
+Feito com ❤️ por Matheus lima 👋🏽 Entre em contato!
+
+[![Linkedin Badge](https://img.shields.io/badge/-Thiago-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tgmarinho/)](https://www.linkedin.com/in/matheus-lima-dev/) 
+[![Gmail Badge](https://img.shields.io/badge/-tgmarinho@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tgmarinho@gmail.com)](mailto:mateus.krauss@gmail.com)
