@@ -1,13 +1,15 @@
 import React from 'react';
-import TasksCard from './TasksCards';
-import Forms from './Forms';
+import FaceDoom from '../components/FaceDoom';
+import Forms from '../components/Forms';
+import GetTasks from '../components/GetTasks';
 import './style.css'
 
 function Tasks() {
   return (
     <div className="tasks">
         <Forms />
-        <TasksCard />
+        <GetTasks />
+        <FaceDoom />
     </div>
   );
 }

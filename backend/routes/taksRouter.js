@@ -8,6 +8,6 @@ router.post('/', controllerTasks);
 
 router.get('/', controllerAllTasks);
 
-router.delete('/:id', controllerRemoveTask);
+router.delete('/id', controllerRemoveTask);
 
 module.exports = router;

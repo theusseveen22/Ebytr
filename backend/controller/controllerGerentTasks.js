@@ -15,9 +15,11 @@ const controllerAllTasks = async (_req, res) => {
 }
 
 const controllerRemoveTask = async (req, res) => {
-    const { _id } = req.body
-    const remove = await serviceRemoveTask(_id);
-    return res.status(400).send(remove); 
+    const { id } = req.body
+    console.log(id);
+    const remove = await serviceRemoveTask(id);
+    console.log(remove);
+    return res.status(200).send(remove);
 }
 
 module.exports = {

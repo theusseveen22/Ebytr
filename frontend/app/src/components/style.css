@@ -1,37 +1,75 @@
-.tasksList {
-    display: flex;
-    color: rgb(202, 159, 17);
-    padding: 10px;
-    flex-direction: row;
-    border: 1px solid;
-    width: 300px;
-    height: 100px;
-    flex-flow: row wrap;
-    background-color: rgb(92, 42, 42);
-}
-
 .formsFilds {
+    height: 200px;
+    width: 400px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(124, 40, 40, 0.801);
+    margin: 30px;
     display: flex;
     flex-direction: column;
-    padding: 5px;
-    width: 300px;
-    height: 200px;
     align-items: center;
-    font-size: medium;
-    background-color: rgb(92, 42, 42);
-    color: rgb(202, 159, 17);
 }
 
 .formsFilds input {
-    padding: 15px;
-    align-items:flex-end;
-    font-size: medium;
+    padding: 5px;
+    color: rgb(75, 35, 35);
+    font-weight: bold;
+    width: 300px;
+    height: 30px;
+    font-size: larger;
+    border: solid;
+    margin: 5px;
 }
 
 .formsFilds button {
+    background-color: rgb(97, 34, 34) ;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
     width: 100px;
-    margin: 15px;
-    background-color: rgb(151, 7, 7);
-    color: aliceblue;
+    height: 80px;
     font-size: larger;
+    margin: 5px;
+}
+
+.taskslist {
+    background-color: rgba(221, 204, 204, 0.247);
+    font-size: larger;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.taskslist h4 {
+    padding: 10px;
+}
+
+.taskslist button {
+    background-color: rgb(97, 34, 34) ;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    width: 100px;
+    height: 80px;
+    font-size: larger;
+    margin: 5px;
+}
+
+.face {
+    background-color: rgba(240, 248, 255, 0.075);
+    margin: 30px;
+    width: 100px;
+    height: 50px;
+    margin-top: 140px; /* altura que está do topo */
+    top: 50px; /* altura que vai parar antes do topo */
+    position: sticky;
+}
+
+.text-h1 {
+    color: aliceblue;
 }
