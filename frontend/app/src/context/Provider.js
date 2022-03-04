@@ -16,7 +16,8 @@ getAllData();
 }, []);
 
   const states = {
-    dataTasks
+    dataTasks,
+    setDataTasks
   };
 
   return (

@@ -17,8 +17,9 @@ const getAllTasks = async () => {
 
 const removeTask = async (id) => {
     const db = await connection();
+    console.log('ID', id);
     const remove = await db.collection('tasks')
-    .remove({"_id": ObjectId(id)});
+    .deleteOne({"_id": ObjectId(id)});
     return remove;
 }
 
