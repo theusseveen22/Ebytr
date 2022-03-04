@@ -59,6 +59,7 @@ $ npm run debug ou npm start
 ### 🎲 Rodando o Front
 
 
+```bash
 # Acesse a pasta do projeto no terminal/cmd
 $ cd frontend
 
@@ -72,6 +73,7 @@ $ npm install
 $ npm start
 
 # O servidor inciará na porta:3000 - acesse <http://localhost:3000> 
+```
 
 ### Autor
 ---
